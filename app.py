@@ -7,6 +7,7 @@ import os
 from PIL import Image
 
 # --- CONFIGURATION ---
+UPLOAD_FOLDER = "static/uploads"
 ENCODINGS_FILE = "encodings.pkl"
 REGISTERED_FILE = "registered_users.txt"
 DETECTION_METHOD = "hog"
@@ -85,3 +86,4 @@ if uploaded_file:
             st.error("Failed to process the image.")
     else:
         st.error("Invalid image file.")
+
