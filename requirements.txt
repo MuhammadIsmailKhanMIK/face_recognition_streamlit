@@ -4,3 +4,7 @@ opencv-python==4.7.0.72
 numpy==1.25.2
 Pillow==10.0.1
 dlib==19.24.0
+face_recognition
+opencv-python
+numpy
+Flask      
